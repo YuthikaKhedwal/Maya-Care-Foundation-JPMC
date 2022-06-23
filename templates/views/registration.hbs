@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="registration.css">
+
+    <title>Register</title>
+<!--
+<h1 style="padding: 0 0 5%;">Disability</h1>
+<label  class="container">YES
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+</label>
+<label class="container">NO
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+-->
+
+</head>
+<body>
+    <h1  style="color:purple; text-align:center; font-family="Montserrat"; "class="heading ">REGISTER HERE</h1>
+    <div class="information">
+    {{!-- <form action=""> --}}
+      <!--
+        <div class="common">
+            <h2>Disability: </h2>
+              <input type="radio" id="yes" name="disability">
+              <label for="Disability">Yes</label>
+              <input type="radio" id="No" name="disability">
+              <label for="Disability">No</label>
+        </div> -->
+        <h3 style="text-align:center; color:purple; padding:3%;">Choose from the below categories </h3>
+        <div class="album py-5 bg-light">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="imagess/donorimg.jpg"  width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <form action="/donor" method="GET">
+                        <div class="btn-group">
+                            <button type="submit" class="btn btn-secondary btn-sm">Donor</button>
+                        </div>
+                        </form>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="imagess/elderly.jpg"  width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                        <form action="/elder" method="GET">
+                        <div class="btn-group">
+                            {{!-- <a href="elderform.html"> --}}
+                            <button type="submit" class="btn btn-secondary btn-sm">Elderly</button>
+                        </div>
+                        </form>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="imagess/employee.jpg"  width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                      <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <form action="/employee" method="GET">
+                          <div class="btn-group">
+                              <button type="submit" class="btn btn-secondary btn-sm">Employee</button></a>
+                          </div>
+                          </form>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card shadow-sm">
+                      <img src="imagess/volunteer.jpg"  width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                      <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <form action="/volunteer" method="GET">
+                          <div class="btn-group">
+                            {{!-- <a href="volunteer.html"> --}}
+                              <button type="submit" class="btn btn-secondary btn-sm">Volunteer</button></a>
+                          </div>
+                          </form>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </div>
+         <br>
+    <!--    <center><button type="button" class="btn btn-dark">
+            Register
+        </button></center> -->
+    {{!-- </form> --}}
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

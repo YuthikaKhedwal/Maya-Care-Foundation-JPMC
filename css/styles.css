@@ -1,0 +1,140 @@
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+  background-color: #9873AC;
+  color: #fff;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-weight: "Montserrat-Bold"
+}
+p{
+  color: #8f8f8f;
+}
+.navbar{
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width:70%;
+  border-radius: 50px;
+  margin: 60px;
+}
+#features{
+  padding: 7% 15%;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #9873AC;
+  margin-bottom: 1rem
+}
+.icon:hover{
+  color: #9873AC;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #9873AC;
+  color: #fff;
+}
+.testi{
+  color: #fff;
+  font-family: "Montserrat-Black";
+  font-size: 1.5rem;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  text-align: center;
+  background-color: #9873AC;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+  border-radius: 50px;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+  background-color: #9873AC;
+}
+
+.icon-link > .bi {
+  margin-top: .125rem;
+  margin-left: .125rem;
+  fill: #9873AC;
+  transition: transform .25s ease-in-out;
+}
+.icon-link:hover > .bi {
+  transform: translate(.25rem);
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+  background-color: #9873AC;
+}
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.feat{
+
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+.hey{color: #9873AC;}
